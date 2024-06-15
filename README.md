@@ -85,15 +85,15 @@ content_copy
 Use code with caution.
 Sh
 
-Install required packages:
+2. Install required packages:
 ```sh
-pip install -r requirements.txt
+   pip install -r requirements.txt
 ```
 Obtain API keys:
 
-Google Gemini Pro: https://developers.google.com/gemini/
+Google Gemini flash: [Gemini API key](https://aistudio.google.com)
 
-OpenWeatherMap: https://openweathermap.org/api
+OpenWeatherMap: [OpenWeatherMap API key](https://openweathermap.org/api)
 
 Configure API keys:
 
@@ -120,47 +120,47 @@ Start interacting with Mira using voice commands.
 
 Examples:
 
-"What time is it?"
-
-"How many fingers can you see?"
-
-"What's the weather like?"
-
-"Tell me a joke."
+  "What time is it?"
+  
+  "How many fingers can you see?"
+  
+  "What's the weather like?"
+  
+  "Tell me a joke."
 
 (back to top)
 
 Roadmap
 
-Integrate with smart home devices (e.g., Philips Hue, Google Home)
-
-Implement facial recognition for personalized user profiles
-
-Expand gesture recognition capabilities
-
-Develop a user interface for easier control and settings customization
+  * Integrate with smart home devices
+  
+  * Implement facial recognition for personalized user profiles
+  
+  * Expand gesture recognition capabilities
+  
+  * Develop a user interface for easier control and settings customization
 
 (back to top)
 
 Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
-
-Fork the Project
-
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
-
-Commit your Changes (git commit -m 'Add some AmazingFeature')
-
-Push to the Branch (git push origin feature/AmazingFeature)
-
-Open a Pull Request
+  * Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+  
+  * Fork the Project
+  
+  * Create your Feature Branch (git checkout -b feature/AmazingFeature)
+  
+  * Commit your Changes (git commit -m 'Add some AmazingFeature')
+  
+  * Push to the Branch (git push origin feature/AmazingFeature)
+  
+  * Open a Pull Request
 
 (back to top)
 
 License
 
-Distributed under the MIT License. See LICENSE for more information.
+  Distributed under the MIT License. See LICENSE for more information.
 
 
 (back to top)
