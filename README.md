@@ -3,7 +3,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <a href="https://github.com/xXlyitemXx/"> 
+  <a href="https://cdn.discordapp.com/attachments/1224415546561269812/1227706871830544394/isZSsUB.jpg?ex=666e98df&is=666d475f&hm=68fd6b8299be81afc2fef143fd64a61af81900c69044937b478442c5b5b68709&"> 
     <img src="images/logo.png" alt="Logo" width="80" height="80"> 
   </a>
 
