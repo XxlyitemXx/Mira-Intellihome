@@ -101,7 +101,7 @@ Add the following lines, replacing placeholders with your actual keys:
 } 
 ```
 
-(back to top)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 Usage
 
@@ -122,7 +122,7 @@ Examples:
   
   "Tell me a joke."
 
-(back to top)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 Roadmap
 
@@ -149,15 +149,14 @@ Contributing
   * Push to the Branch (git push origin feature/AmazingFeature)
   
   * Open a Pull Request
-
-(back to top)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 License
 
   Distributed under the MIT License. See LICENSE for more information.
 
 
-(back to top)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 Acknowledgments
 
@@ -169,17 +168,6 @@ OpenCV
 
 Mediapipe
 
-(back to top)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-**Key points and things to fill in:**
-
-* **Project Title and Description:**  Clearly state your project's name (Intellihome) and provide a concise, informative description.
-* **Logo:**  Replace `images/logo.png` with the actual path to your project's logo. If you don't have a logo yet, you can create one or use a placeholder image.
-* **Features:** Highlight the main features of your project.
-* **Built With:** Showcase the key technologies used. I've added some badges for visual appeal.
-* **Installation:** Provide clear, step-by-step instructions on how to install and set up your project locally, including how to obtain and configure API keys.
-* **Usage:** Include examples of how to use your project after it's set up.
-* **Roadmap:** Outline future plans and features you intend to implement.
-* **Contact:**  Provide your team's names and a link to the GitHub repository. 
-* **Acknowledgments:** Give credit to any external resources or libraries you've used.
 
