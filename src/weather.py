@@ -2,7 +2,7 @@ import requests
 import json
 def load_config():
     try:
-        with open("config.json", "r") as file:
+        with open("./config.json", "r") as file:
             return json.load(file)
     except FileNotFoundError:
         print("Configuration file not found. Please ensure 'config.json' exists.")

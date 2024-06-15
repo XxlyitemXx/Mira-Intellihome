@@ -5,3 +5,5 @@ playsound
 opencv-python
 mediapipe
 requests
+pyaudio
+six

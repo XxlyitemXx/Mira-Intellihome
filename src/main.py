@@ -10,10 +10,10 @@ from detector import detector
 
 def load_config():
     try:
-        with open("config.json", "r") as file:
+        with open("./config.json", "r") as file:
             return json.load(file)
     except FileNotFoundError:
-        print("Configuration file not found. Please ensure 'config.json' exists.")
+        print("Configuration file not found. Please ensure 'configs.json' exists.")
         exit(1)
     except json.JSONDecodeError:
         print("Error reading 'config.json'. Please ensure it contains valid JSON.")
