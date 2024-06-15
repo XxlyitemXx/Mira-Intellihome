@@ -1,9 +1,9 @@
-Here's the README file tailored for your Intellihome project:
+
 
 <a name="readme-top"></a>
 
 <div align="center">
-  <a href="https://github.com/yourusername/Intellihome"> 
+  <a href="https://github.com/xxlyitemxx/Mira-Intellihome"> 
     <img src="images/logo.png" alt="Logo" width="80" height="80"> 
   </a>
 
@@ -12,7 +12,7 @@ Here's the README file tailored for your Intellihome project:
   <p align="center">
     Your AI-Powered Smart Home Companion
     <br />
-    <a href="https://github.com/yourusername/Intellihome"><strong>Explore the Code »</strong></a>
+    <a href="https://github.com/xxlyitemxx/Mira-Intellihome"><strong>Explore the Code »</strong></a>
   </p>
 </div>
 
@@ -57,10 +57,10 @@ Intellihome is a Python-based smart home system designed to understand and respo
 
 ### Built With
 
-* [![Python][Python.org]][Python-url]
-* [![Gemini Pro][Gemini.google]][Gemini-url]
-* [![OpenCV][OpenCV.org]][OpenCV-url]
-* [![Mediapipe][Mediapipe.dev]][Mediapipe-url] 
+* [![Python][Python.org]][[Python-url](https://www.python.org/)]
+* [![Gemini Pro][Gemini.google]][[Gemini-url](https://aistudio.google.com)]
+* [![OpenCV][OpenCV.org]][[OpenCV-url](https://opencv.org/)]
+* [![Mediapipe][Mediapipe.dev]][[Mediapipe-url](https://chuoling.github.io/mediapipe/)] 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -121,9 +121,7 @@ Usage
 Run the main script:
 
 python main.py
-content_copy
 Use code with caution.
-Sh
 
 Start interacting with Mira using voice commands.
 
@@ -171,23 +169,6 @@ License
 
 Distributed under the MIT License. See LICENSE for more information.
 
-(back to top)
-
-Contact
-
-Chayaphon Kaewboon
-
-Intarut Wongthananop
-
-Pongkun Sriaroon
-
-Nattakieat Krunannatkิจja
-
-Thanakrit Nantaekphong
-
-Theerin Pukho
-
-Project Link: https://github.com/yourusername/Intellihome
 
 (back to top)
 
@@ -215,6 +196,3 @@ Mediapipe
 * **Contact:**  Provide your team's names and a link to the GitHub repository. 
 * **Acknowledgments:** Give credit to any external resources or libraries you've used.
 
-Remember to replace placeholders like `yourusername` and the API key instructions with your actual information.
-content_copy
-Use code with caution.
