@@ -86,12 +86,9 @@ Use code with caution.
 Sh
 
 Install required packages:
-
+```sh
 pip install -r requirements.txt
-content_copy
-Use code with caution.
-Sh
-
+```
 Obtain API keys:
 
 Google Gemini Pro: https://developers.google.com/gemini/
@@ -100,24 +97,24 @@ OpenWeatherMap: https://openweathermap.org/api
 
 Configure API keys:
 
-Create a config.py file in the project's root directory.
+Create a config.json file in the project's root directory.
 
 Add the following lines, replacing placeholders with your actual keys:
-
-GEMINI_API_KEY = "YOUR_GEMINI_API_KEY"
-OPENWEATHERMAP_API_KEY = "YOUR_OPENWEATHERMAP_API_KEY"
-content_copy
-Use code with caution.
-Python
+```
+{
+    "api_key": "Your Gemini api key!",
+    "city":"Your city!"
+} 
+```
 
 (back to top)
 
 Usage
 
 Run the main script:
-
+```
 python main.py
-Use code with caution.
+```
 
 Start interacting with Mira using voice commands.
 
