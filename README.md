@@ -53,10 +53,10 @@ Intellihome is a Python-based smart home system designed to understand and respo
 
 ### Built With
 
-* [Python](https://www.python.org/)]
-* [Gemini-url](https://aistudio.google.com)]
-* [OpenCV-url](https://opencv.org/)]
-* [Mediapipe-url](https://chuoling.github.io/mediapipe/)] 
+* [Python](https://www.python.org/)
+* [Gemini-url](https://aistudio.google.com)
+* [OpenCV-url](https://opencv.org/)
+* [Mediapipe-url](https://chuoling.github.io/mediapipe/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
