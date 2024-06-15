@@ -8,7 +8,24 @@ from weather import get_weather
 from detector import detector
 
 
-genai.configure(api_key="YOUR_API_KEY_HERE")
+def load_config():
+    try:
+        with open("config.json", "r") as file:
+            return json.load(file)
+    except FileNotFoundError:
+        print("Configuration file not found. Please ensure 'config.json' exists.")
+        exit(1)
+    except json.JSONDecodeError:
+        print("Error reading 'config.json'. Please ensure it contains valid JSON.")
+        exit(1)
+
+
+config = load_config()
+apikey = config.get("api_key")
+city = config.get("city")
+
+
+genai.configure(api_key=apikey)
 
 
 def text_to_speech(text, lang="en"):
