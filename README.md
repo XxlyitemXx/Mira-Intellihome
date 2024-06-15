@@ -3,7 +3,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <a href="https://github.com/xxlyitemxx/"> 
+  <a href="https://github.com/xXlyitemXx/"> 
     <img src="images/logo.png" alt="Logo" width="80" height="80"> 
   </a>
 
