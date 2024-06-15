@@ -41,7 +41,7 @@
 
 ## About The Project
 
-Intellihome is a Python-based smart home system designed to understand and respond to your needs through voice commands, gestures, and facial recognition. Powered by Google's Gemini Pro and leveraging the power of OpenCV and Mediapipe, Intellihome seamlessly integrates into your daily life, making it easier and more comfortable.
+Intellihome is a Python-based smart home system designed to understand and respond to your needs through voice commands, gestures, and facial recognition. Powered by Google's Gemini flash and leveraging the power of OpenCV and Mediapipe, Intellihome seamlessly integrates into your daily life, making it easier and more comfortable.
 
 ### Features
 
@@ -53,10 +53,10 @@ Intellihome is a Python-based smart home system designed to understand and respo
 
 ### Built With
 
-* [![Python][Python.org]][[Python-url](https://www.python.org/)]
-* [![Gemini Pro][Gemini.google]][[Gemini-url](https://aistudio.google.com)]
-* [![OpenCV][OpenCV.org]][[OpenCV-url](https://opencv.org/)]
-* [![Mediapipe][Mediapipe.dev]][[Mediapipe-url](https://chuoling.github.io/mediapipe/)] 
+* [![[Python](https://www.python.org/)]
+* [![Gemini-url](https://aistudio.google.com)]
+* [![[OpenCV-url](https://opencv.org/)]
+* [![[Mediapipe-url](https://chuoling.github.io/mediapipe/)] 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
