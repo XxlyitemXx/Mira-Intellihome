@@ -77,7 +77,7 @@ To get a local copy up and running follow these simple steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/yourusername/Intellihome.git
+   git clone https://github.com/xxlyitemxx/Mira-Intellihome.git
 content_copy
 Use code with caution.
 Markdown
