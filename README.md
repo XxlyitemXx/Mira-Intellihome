@@ -3,7 +3,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <a href="https://github.com/xxlyitemxx/Mira-Intellihome"> 
+  <a href="https://github.com/xxlyitemxx/"> 
     <img src="images/logo.png" alt="Logo" width="80" height="80"> 
   </a>
 
