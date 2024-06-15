@@ -54,9 +54,9 @@ Intellihome is a Python-based smart home system designed to understand and respo
 ### Built With
 
 * [Python](https://www.python.org/)
-* [Gemini-url](https://aistudio.google.com)
-* [OpenCV-url](https://opencv.org/)
-* [Mediapipe-url](https://chuoling.github.io/mediapipe/)
+* [Gemini](https://aistudio.google.com)
+* [OpenCV](https://opencv.org/)
+* [Mediapipe](https://chuoling.github.io/mediapipe/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -74,18 +74,12 @@ To get a local copy up and running follow these simple steps.
 1. Clone the repo
    ```sh
    git clone https://github.com/xxlyitemxx/Mira-Intellihome.git
-content_copy
-Use code with caution.
-Markdown
 
 Navigate to the project directory:
 
-cd Intellihome
-content_copy
-Use code with caution.
-Sh
+2. ```cd Intellihome```
 
-2. Install required packages:
+3. Install required packages:
 ```sh
    pip install -r requirements.txt
 ```
