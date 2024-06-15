@@ -1,1 +1,7 @@
-
+google-generativeai
+speechrecognition
+gtts
+playsound
+opencv-python
+mediapipe
+requests
