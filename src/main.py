@@ -3,7 +3,7 @@ from datetime import datetime
 from gtts import gTTS
 import playsound
 import google.generativeai as genai
-
+import json
 from weather import get_weather
 from detector import detector
 
