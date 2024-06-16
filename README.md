@@ -6,7 +6,7 @@
   <h3 align="center">Intellihome</h3>
 
   <p align="center">
-    Your AI-Powered Smart Home Companion
+    Your AI-Powered Smart Home Companion (I'm just a newbie feel free to tell what should i do)
     <br />
     <a href="https://github.com/xXlyitemXx/Mira-Intellihome"><strong>Explore the Code »</strong></a>
   </p>
