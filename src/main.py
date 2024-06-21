@@ -97,7 +97,7 @@ def main():
                     "top_p": 0.95,
                     "top_k": 64,
                     "max_output_tokens": 8192,
-                    "stop_sequences": ["service off", "system off", "end"],
+                    "stop_sequences": [],
                     "response_mime_type": "text/plain",
                 }
 
