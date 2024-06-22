@@ -1,7 +1,7 @@
 @echo off
-REM Navigate to the 'src' directory
-cd src
-
-REM Run the main Python script
+REM 
 pip install -r requirements.txt
+
+REM 
+cd src
 python main.py
