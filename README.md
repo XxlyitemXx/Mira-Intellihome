@@ -8,7 +8,7 @@
   <p align="center">
     Your AI-Powered Smart Home Companion.
     <br />
-    <a href="https://github.com/xXlyitemXx/Mira-Intellihome"><strong>Explore the Code »</strong></a>
+    <a href="https://github.com/xXlyitemXx/Mira-Intellihome"><strong>Explore the Code! »</strong></a>
   </p>
 </div>
 
