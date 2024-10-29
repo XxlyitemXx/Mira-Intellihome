@@ -47,6 +47,7 @@ Intellihome is a Python-based smart home system designed to understand and respo
          "city": "YOUR_CITY_NAME",
          "country_code": "YOUR_COUNTRY_CODE",  // Two-letter country code
          "discord_webhook": "YOUR_DISCORD_WEBHOOK_URL" //Optional
+         "language":"YOUR PREFER LANGUAGE" //two letter
      }
      ```
      * Replace placeholders with your actual API keys and location information.
