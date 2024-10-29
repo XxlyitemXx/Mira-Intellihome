@@ -1,9 +1,8 @@
-google-generativeai
-speechrecognition
-gtts
-playsound
-opencv-python
-mediapipe
-requests
+speech_recognition
+pydub
 pyaudio
-six
+serial
+opencv-python
+google-generativeai
+requests
+gtts
