@@ -116,16 +116,3 @@ This project is licensed under the MIT License. See `LICENSE` for more informati
 * OpenCV
 ```
 
-Key improvements:
-
-* **Clearer Structure:**  Organized into more logical sections with improved headings.
-* **Concise Descriptions:** Focused on the core features and functionality.
-* **Updated Installation Instructions:**  Reflect the new project structure and `config.json` format.
-* **Usage Examples:** Provided more practical voice command examples.
-* **Project Structure Explanation:** Added a section to clarify the organization of the codebase.
-* **Badges:** Added a license badge for clarity.
-* **Removed Unnecessary Sections:**  Removed or simplified sections like "Contact" and "Acknowledgments" to focus on the essential information.  Combined "Prerequisites" and "Installation".
-* **Code Block Formatting:**  Used consistent backticks for code blocks.
-
-
-This revised README provides a much more comprehensive and user-friendly introduction to your project.  It's well-structured, easy to follow, and highlights the key aspects of Intellihome.
