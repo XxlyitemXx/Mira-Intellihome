@@ -1,8 +1,8 @@
-
 {
     "api_key_weather": "",
-    "city":"bangkok",
+    "city":"",
     "api_key_gemini":"",
-    "country_code":"TH",
-    "discord_webhook":""
+    "country_code":"",
+    "discord_webhook":"",
+    "language":"en"
 } 
