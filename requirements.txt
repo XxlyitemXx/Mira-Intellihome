@@ -1,4 +1,4 @@
-speech_recognition
+speechrecognition
 pydub
 pyaudio
 serial
