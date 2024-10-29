@@ -2,7 +2,7 @@
         "api_key_weather": "YOUR_OPENWEATHERMAP_API_KEY",
         "api_key_gemini": "YOUR_GOOGLE_GEMINI_API_KEY",
         "city": "YOUR_CITY_NAME",
-        "country_code": "YOUR_COUNTRY_CODE",  // Two-letter country code
-        "discord_webhook": "YOUR_DISCORD_WEBHOOK_URL" //Optional
-        "language":"YOUR PREFER LANGUAGE" //two letter
+        "country_code": "YOUR_COUNTRY_CODE",  
+        "discord_webhook": "YOUR_DISCORD_WEBHOOK_URL",
+        "language":"YOUR PREFER LANGUAGE" 
 } 
