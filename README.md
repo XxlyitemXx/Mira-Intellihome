@@ -80,7 +80,7 @@ Intellihome is a Python-based smart home system designed to understand and respo
     * `camera_capturer.py`: Handles webcam image capture.
     * `chat_history_manager.py`: Manages loading and saving chat history.
     * `config_loader.py`: Loads configuration from `config.json`.
-    * `discord_messenger.py`: Sends messages to Discord.
+    * `discord_manager.py`: Sends messages to Discord.
     * `gemini_interactor.py`: Handles interaction with the Google Gemini API.
     * `timer_manager.py`: Manages timer functionality.
     * `tts_speaker.py`: Handles text-to-speech.
