@@ -114,5 +114,5 @@ This project is licensed under the MIT License. See `LICENSE` for more informati
 * Google Gemini
 * OpenWeatherMap API
 * OpenCV
-```
+
 
