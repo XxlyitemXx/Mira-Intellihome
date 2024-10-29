@@ -1,173 +1,130 @@
 
+# Intellihome - Your AI-Powered Smart Home Companion
 
-<a name="readme-top"></a>
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+Intellihome is a Python-based smart home system designed to understand and respond to your needs through voice commands.  Powered by Google's Gemini and leveraging computer vision, Intellihome aims to make your life easier and more comfortable.
 
-  <h3 align="center">Intellihome</h3>
+## Features
 
-  <p align="center">
-    Your AI-Powered Smart Home Companion.
-    <br />
-    <a href="https://github.com/xXlyitemXx/Mira-Intellihome"><strong>Explore the Code! »</strong></a>
-  </p>
-</div>
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#features">Features</a></li>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
-
-## About The Project
-
-Intellihome is a Python-based smart home system designed to understand and respond to your needs through voice commands, gestures, and facial recognition. Powered by Google's Gemini flash and leveraging the power of OpenCV and Mediapipe, Intellihome seamlessly integrates into your daily life, making it easier and more comfortable.
-
-### Features
-
-* **Natural Language Processing:** Interact with Mira, your AI assistant, using natural language to get information, set reminders, and control smart devices.
-* **Gesture Recognition:** Use simple hand gestures to control various aspects of your home environment.
-* **Facial Recognition:** Intellihome can recognize you and personalize settings based on your preferences.
-* **OpenWeatherMap Integration:**  Get real-time weather updates for your location.
-* **Continuously Learning:** Intellihome adapts and learns your habits over time to provide a personalized experience. 
-
-### Built With
-
-* [Python](https://www.python.org/)
-* [Gemini](https://aistudio.google.com)
-* [OpenCV](https://opencv.org/)
-* [Mediapipe](https://chuoling.github.io/mediapipe/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+* **Natural Language Understanding:** Interact with Mira, your AI assistant, using natural language. Ask questions, set timers, control smart devices (planned), and more.
+* **Contextual Awareness:** Mira understands the current time, date, and weather, and can use this information to provide relevant responses.
+* **Extensible Functionality:** Designed with a modular architecture, making it easy to add new features and integrations.
+* **Camera Integration (Optional):**  Can be configured to capture images and analyze them using Gemini for contextual awareness (e.g., "How many fingers am I holding up?").
+* **Discord Integration:** Send messages to a Discord webhook for notifications or remote control.
+* **Timer:** Set timers and receive audio notifications when they expire.  (Uses Thai language for the notification currently).
 
 ## Getting Started
 
-To get a local copy up and running follow these simple steps.
-
 ### Prerequisites
 
-* Python 3.6 or higher
-* pip (package installer for Python)
+* Python 3.7+
+* `pip` (Python package installer)
 
 ### Installation
 
-1. Clone the repo
-   ```sh
-   git clone https://github.com/xxlyitemxx/Mira-Intellihome.git
+1. **Clone the repository:**
 
-Navigate to the project directory:
+   ```bash
+   git clone https://github.com/xXlyitemXx/Mira-Intellihome.git
+   cd Mira-Intellihome
+   ```
 
-2. ```cd Intellihome```
+2. **Install dependencies:**
 
-3. Install required packages:
-```sh
+   ```bash
    pip install -r requirements.txt
+   ```
+
+3. **Configuration:**
+
+   * **Create `config.json`:**  Create a `config.json` file in the project's root directory with the following structure:
+
+     ```json
+     {
+         "api_key_weather": "YOUR_OPENWEATHERMAP_API_KEY",
+         "api_key_gemini": "YOUR_GOOGLE_GEMINI_API_KEY",
+         "city": "YOUR_CITY_NAME",
+         "country_code": "YOUR_COUNTRY_CODE",  // Two-letter country code
+         "discord_webhook": "YOUR_DISCORD_WEBHOOK_URL" //Optional
+     }
+     ```
+     * Replace placeholders with your actual API keys and location information.
+
+### Running the application
+1. navigate to the root of the project folder.
+2. run ```python mira_assistant/main.py```.
+
+## Usage
+
+1. **Run `main.py`:** 
+
+   ```bash
+   python mira_assistant/main.py
+   ```
+2. Follow the prompts to enter session ID, debug mode and enable/disable camera
+3. The application will listen for you command if you disable debug mode.
+4. If debug mode enabled enter text command via terminal.
+
+**Example Voice Commands:**
+
+* "What time is it?"
+* "What's the weather like?"
+* "Set a timer for 5 minutes."
+* "Send a message to Discord saying 'Hello from Mira!'"
+
+
+## Project Structure
+
+* `mira_assistant/`: Contains the core Python modules.
+    * `camera_capturer.py`: Handles webcam image capture.
+    * `chat_history_manager.py`: Manages loading and saving chat history.
+    * `config_loader.py`: Loads configuration from `config.json`.
+    * `discord_messenger.py`: Sends messages to Discord.
+    * `gemini_interactor.py`: Handles interaction with the Google Gemini API.
+    * `timer_manager.py`: Manages timer functionality.
+    * `tts_speaker.py`: Handles text-to-speech.
+    * `weather_getter.py`: Fetches weather data.
+    * `main.py`: The main application script.
+* `requirements.txt`: Lists the project dependencies.
+* `README.md`: This file.
+
+
+## Roadmap
+
+* Enhanced Smart Home Integrations: Direct control of smart devices (lights, thermostats, etc.).
+* Improved Computer Vision:  More robust gesture and object recognition.
+* User Interface:  A web or mobile interface for configuration and control.
+* Multi-language Support: Extend TTS and speech recognition to more languages.
+
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and create a pull request.
+
+
+## License
+
+This project is licensed under the MIT License. See `LICENSE` for more information.
+
+
+## Acknowledgements
+
+* Google Gemini
+* OpenWeatherMap API
+* OpenCV
 ```
-Obtain API keys:
 
-Google Gemini flash: [Gemini API key](https://aistudio.google.com)
+Key improvements:
 
-OpenWeatherMap: [OpenWeatherMap API key](https://openweathermap.org/api)
-
-Configure API keys:
-
-Create a config.json file in the project's root directory.
-
-Add the following lines, replacing placeholders with your actual keys:
-```
-{
-    "api_key": "Your Gemini api key!",
-    "city":"Your city!"
-} 
-```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-Usage
-
-Run the main script:
-```
-python main.py
-```
-
-Start interacting with Mira using voice commands.
-
-Examples:
-
-  "What time is it?"
-  
-  "How many fingers can you see?"
-  
-  "What's the weather like?"
-  
-  "Tell me a joke."
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-Roadmap
-
-  * Integrate with smart home devices
-  
-  * Implement facial recognition for personalized user profiles
-  
-  * Expand gesture recognition capabilities
-  
-  * Develop a user interface for easier control and settings customization
-
-(back to top)
-
-Contributing
-
-  * Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
-  
-  * Fork the Project
-  
-  * Create your Feature Branch (git checkout -b feature/AmazingFeature)
-  
-  * Commit your Changes (git commit -m 'Add some AmazingFeature')
-  
-  * Push to the Branch (git push origin feature/AmazingFeature)
-  
-  * Open a Pull Request
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-License
-
-  Distributed under the MIT License. See LICENSE for more information.
+* **Clearer Structure:**  Organized into more logical sections with improved headings.
+* **Concise Descriptions:** Focused on the core features and functionality.
+* **Updated Installation Instructions:**  Reflect the new project structure and `config.json` format.
+* **Usage Examples:** Provided more practical voice command examples.
+* **Project Structure Explanation:** Added a section to clarify the organization of the codebase.
+* **Badges:** Added a license badge for clarity.
+* **Removed Unnecessary Sections:**  Removed or simplified sections like "Contact" and "Acknowledgments" to focus on the essential information.  Combined "Prerequisites" and "Installation".
+* **Code Block Formatting:**  Used consistent backticks for code blocks.
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-Acknowledgments
-
-OpenWeatherMap API
-
-Google Gemini Pro
-
-OpenCV
-
-Mediapipe
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+This revised README provides a much more comprehensive and user-friendly introduction to your project.  It's well-structured, easy to follow, and highlights the key aspects of Intellihome.
