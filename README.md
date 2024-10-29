@@ -12,7 +12,7 @@ Intellihome is a Python-based smart home system designed to understand and respo
 * **Extensible Functionality:** Designed with a modular architecture, making it easy to add new features and integrations.
 * **Camera Integration (Optional):**  Can be configured to capture images and analyze them using Gemini for contextual awareness (e.g., "How many fingers am I holding up?").
 * **Discord Integration:** Send messages to a Discord webhook for notifications or remote control.
-* **Timer:** Set timers and receive audio notifications when they expire.  (Uses Thai language for the notification currently).
+* **Timer:** Set timers and receive audio notifications when they expire.
 
 ## Getting Started
 
