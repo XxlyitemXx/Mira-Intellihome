@@ -61,7 +61,7 @@ Intellihome is a Python-based smart home system designed to understand and respo
 1. **Run `main.py`:** 
 
    ```bash
-   python mira_assistant/main.py
+   python Mira-Intellihome/src/main.py
    ```
 2. Follow the prompts to enter session ID, debug mode and enable/disable camera
 3. The application will listen for you command if you disable debug mode.
