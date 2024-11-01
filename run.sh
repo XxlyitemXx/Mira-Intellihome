@@ -11,7 +11,7 @@ source .venv/bin/activate  # Linux/macOS
 # Install the requirements
 pip install -r requirements.txt
 
-# Run main.py (assuming it's in ./src)
+# Run main.py
 python ./src/main.py
 
 # Deactivate the virtual environment (optional)
