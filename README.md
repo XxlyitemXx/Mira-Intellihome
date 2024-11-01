@@ -54,7 +54,7 @@ Intellihome is a Python-based smart home system designed to understand and respo
 
 ### Running the application
 1. navigate to the root of the project folder.
-2. run ```python mira_assistant/main.py```.
+2. run ```python Mira-Intellihome/src/main.py```.
 
 ## Usage
 
