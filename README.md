@@ -77,7 +77,7 @@ Intellihome is a Python-based smart home system designed to understand and respo
 
 ## Project Structure
 
-* `mira_assistant/`: Contains the core Python modules.
+* `Mira-Intellihome/`: Contains the core Python modules.
     * `camera_capturer.py`: Handles webcam image capture.
     * `chat_history_manager.py`: Manages loading and saving chat history.
     * `config_loader.py`: Loads configuration from `config.json`.
