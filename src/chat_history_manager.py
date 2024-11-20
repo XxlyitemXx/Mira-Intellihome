@@ -19,7 +19,7 @@ def load_chat_history(session_id):
     if not os.path.exists(file_path):  # Check if the file exists
         logging.info(f"Creating new chat history file: {file_path}")
         try:
-            with open(file_path, 'w') as f:
+            with open(file_path, 'w', encoding='utf-8') as f:
                 json.dump([], f)  # Create an empty JSON file for the new session
             return [] #Return empty list if the file not existed
         except Exception as e: # Handle potential errors during file creation
@@ -27,7 +27,7 @@ def load_chat_history(session_id):
             return []
 
     try: # Try to load the file if it exists or was just created
-        with open(file_path, 'r') as f:
+        with open(file_path, 'r', encoding='utf-8') as f:
             history = json.load(f)
             logging.info(f"Successfully loaded chat history from {file_path}")
             return history
@@ -49,8 +49,8 @@ def save_chat_history(session_id, history):
     if not os.path.exists(history_dir):
         os.makedirs(history_dir)
     try:
-        with open(file_path, 'w') as f:
-            json.dump(history, f, indent=4) # Added indent for readability
+        with open(file_path, 'w', encoding='utf-8') as f:
+            json.dump(history, f, indent=4, ensure_ascii=False)
         logging.info(f"Successfully saved chat history to {file_path}")
     except Exception as e:
         logging.error(f"Failed to save chat history: {e}")
